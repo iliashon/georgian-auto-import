@@ -6,7 +6,15 @@ const config: Config = {
         "./src/components/**/*.{js,ts,jsx,tsx,mdx}",
         "./src/app/**/*.{js,ts,jsx,tsx,mdx}",
     ],
-    theme: {},
+    theme: {
+        extend: {
+            fontFamily: {
+                mont: ["var(--font-mont)"],
+                prompt: ["var(--font-prompt)"],
+                oswald: ["var(--font-oswald)"],
+            },
+        },
+    },
     plugins: [],
 };
 export default config;
