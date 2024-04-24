@@ -1,6 +1,12 @@
-import { MdEmail, MdMap, MdPhone } from "react-icons/md";
+import {
+    MdEmail,
+    MdMap,
+    MdOutlineMiscellaneousServices,
+    MdPhone,
+} from "react-icons/md";
 import { LiaTelegram } from "react-icons/lia";
-import { FaInstagram, FaWhatsapp } from "react-icons/fa";
+import { FaCar, FaInfinity, FaInstagram, FaWhatsapp } from "react-icons/fa";
+import { IoDocumentText } from "react-icons/io5";
 
 export const contactsData = [
     {
@@ -32,5 +38,20 @@ export const socialMedia = [
     {
         icon: <FaWhatsapp className="h-9 w-9" />,
         href: "https://api.whatsapp.com/send/?phone=995596000770&text&type=phone_number&app_absent=0",
+    },
+];
+
+export const advantages = [
+    {
+        icon: <FaCar size={50} />,
+    },
+    {
+        icon: <FaInfinity size={50} />,
+    },
+    {
+        icon: <MdOutlineMiscellaneousServices size={50} />,
+    },
+    {
+        icon: <IoDocumentText size={50} />,
     },
 ];

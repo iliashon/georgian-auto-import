@@ -20,5 +20,12 @@
     "description": "Our company is a leading provider of automotive services, offering a wide range of car rental and import services. We specialize in providing customers with high-quality vehicles, reliable maintenance, and personalized service. Our goal is to ensure our customers' comfortable and safe transportation while meeting their needs for automotive services",
     "button-advantages": "Our advantages",
     "button-cars": "Our cars"
+  },
+  "advantages": {
+    "title": "Our advantages",
+    "0": "Large vehicle fleet",
+    "1": "No mileage restrictions",
+    "2": "Pre-serviced car",
+    "3": "Full insurance"
   }
 }

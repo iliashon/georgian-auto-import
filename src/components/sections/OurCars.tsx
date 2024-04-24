@@ -2,6 +2,7 @@ import LightLink from "@/components/buttons/LightLink";
 
 import CarCard from "@/components/CarCard";
 import photo from "@/assets/images/mustang.webp";
+import generateLocaleHref from "@/utils/generateLocaleHref";
 
 export default function OurCars() {
     return (
@@ -9,14 +10,17 @@ export default function OurCars() {
             <div className="container mx-auto px-5 py-10 text-white grid grid-cols-5 gap-5 items-center">
                 <div className="flex flex-col  items-start gap-7">
                     <h3 className="text-6xl font-oswald font-semibold">
-                        Choose car
+                        Rent a car
                     </h3>
                     <p className="text-white/70 text-sm">
                         Choose your perfect car from our diverse range. We have
                         vehicles to suit every taste and budget, ensuring your
                         journey is unforgettable
                     </p>
-                    <LightLink href={""} className="text-lg">
+                    <LightLink
+                        href={generateLocaleHref("/cars")}
+                        className="text-lg"
+                    >
                         More cars
                     </LightLink>
                 </div>

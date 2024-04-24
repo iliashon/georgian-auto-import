@@ -8,7 +8,7 @@ export default function About() {
 
     return (
         <section className="container mx-auto px-5 py-10 grid grid-cols-2 gap-32 items-center">
-            <Image src={mustang} alt="Mustang" />
+            <Image src={mustang} alt="Mustang" className="rounded-lg" />
             <div className="flex flex-col gap-10">
                 <h3 className="font-oswald text-6xl font-semibold">
                     {t("title")}
