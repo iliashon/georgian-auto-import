@@ -1,2 +1,14 @@
 {
+  "first_screen": {
+    "import": {
+      "title": "Batumi Car Rental: Drive Your Georgian Dream Vacation",
+      "description": "Explore Batumi in our rental cars. Wide selection and flexible terms",
+      "button": "Select Vehicle"
+    },
+    "rent": {
+      "title": "Auto Imports: Top-Quality Vehicles Delivered",
+      "description": "Import quality cars hassle-free with our services. Reliable imports, seamless process",
+      "button": "Learn More"
+    }
+  }
 }
