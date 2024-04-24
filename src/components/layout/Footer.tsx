@@ -1,7 +1,10 @@
 import Link from "next/link";
 import { contactsData, socialMedia } from "@/assets/staticData";
+import { useTranslations } from "next-intl";
 
 export default function Footer() {
+    const t = useTranslations("footer");
+
     return (
         <footer className="container mx-auto py-8 px-5 grid md:grid-cols-3 gap-10">
             <div className="md:col-span-2">
@@ -16,11 +19,10 @@ export default function Footer() {
             <div className="max-md:row-start-1 flex flex-col justify-between">
                 <div className="flex flex-col gap-7">
                     <h3 className="font-oswald text-5xl font-semibold">
-                        Contacts
+                        {t("title")}
                     </h3>
                     <p className="text font-medium text-black/60">
-                        Our contacts are available to you 24/7. Reach out with
-                        any questions or inquiries
+                        {t("description")}
                     </p>
                 </div>
                 <div className="flex flex-col gap-4">

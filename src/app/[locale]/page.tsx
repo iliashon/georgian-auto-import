@@ -1,9 +1,11 @@
-import FirstScreen from "@/components/FirstScreen";
+import FirstScreen from "@/components/sections/FirstScreen";
+import About from "@/components/sections/About";
 
 export default function Home() {
     return (
-        <main className="">
+        <main>
             <FirstScreen />
+            <About />
         </main>
     );
 }

@@ -10,5 +10,15 @@
       "description": "Import quality cars hassle-free with our services. Reliable imports, seamless process",
       "button": "Learn More"
     }
+  },
+  "footer": {
+    "title": "Contacts",
+    "description": "Our contacts are available to you 24/7. Reach out with any questions or inquiries"
+  },
+  "about": {
+    "title": "About our companies",
+    "description": "Our company is a leading provider of automotive services, offering a wide range of car rental and import services. We specialize in providing customers with high-quality vehicles, reliable maintenance, and personalized service. Our goal is to ensure our customers' comfortable and safe transportation while meeting their needs for automotive services",
+    "button-advantages": "Our advantages",
+    "button-cars": "Our cars"
   }
 }
