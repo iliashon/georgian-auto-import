@@ -9,7 +9,7 @@ export default function Advantages() {
             <h2 className="text-5xl font-semibold font-oswald text-center">
                 {t("title")}
             </h2>
-            <ul className="flex justify-center gap-14 mt-14">
+            <ul className="flex justify-between mt-14">
                 {advantages.map((item, index) => {
                     return (
                         <li className="flex flex-col items-center gap-5 text-lg font-medium text-black/50 hover:text-black/100 duration-300 cursor-pointer">

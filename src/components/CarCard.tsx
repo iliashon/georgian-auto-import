@@ -18,7 +18,9 @@ export default function CarCard({
             />
             <div className="text-black flex justify-between">
                 <h4 className="text-base font-medium">{carProps.title}</h4>
-                <span className="text-base font-medium">${carProps.price}</span>
+                <span className="text-base font-medium">
+                    {carProps.price} GEL
+                </span>
             </div>
         </div>
     );

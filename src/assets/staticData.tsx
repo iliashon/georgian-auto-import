@@ -4,9 +4,17 @@ import {
     MdOutlineMiscellaneousServices,
     MdPhone,
 } from "react-icons/md";
-import { LiaTelegram } from "react-icons/lia";
-import { FaCar, FaInfinity, FaInstagram, FaWhatsapp } from "react-icons/fa";
-import { IoDocumentText } from "react-icons/io5";
+import { LiaSignatureSolid, LiaTelegram } from "react-icons/lia";
+import {
+    FaCar,
+    FaInfinity,
+    FaInstagram,
+    FaRegSmile,
+    FaWhatsapp,
+} from "react-icons/fa";
+import { IoDocumentText, IoPeopleSharp } from "react-icons/io5";
+import { HiCash } from "react-icons/hi";
+import { FaListCheck } from "react-icons/fa6";
 
 export const contactsData = [
     {
@@ -43,15 +51,36 @@ export const socialMedia = [
 
 export const advantages = [
     {
-        icon: <FaCar size={50} />,
+        icon: <FaCar size={60} />,
     },
     {
-        icon: <FaInfinity size={50} />,
+        icon: <FaInfinity size={60} />,
     },
     {
-        icon: <MdOutlineMiscellaneousServices size={50} />,
+        icon: <MdOutlineMiscellaneousServices size={60} />,
     },
     {
-        icon: <IoDocumentText size={50} />,
+        icon: <IoDocumentText size={60} />,
+    },
+    {
+        icon: <HiCash size={60} />,
+    },
+    {
+        icon: <IoPeopleSharp size={60} />,
+    },
+];
+
+export const rentStep = [
+    {
+        icon: <MdPhone size={50} />,
+    },
+    {
+        icon: <FaListCheck size={50} />,
+    },
+    {
+        icon: <LiaSignatureSolid size={50} />,
+    },
+    {
+        icon: <FaRegSmile size={50} />,
     },
 ];

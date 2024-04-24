@@ -26,6 +26,33 @@
     "0": "Large vehicle fleet",
     "1": "No mileage restrictions",
     "2": "Pre-serviced car",
-    "3": "Full insurance"
+    "3": "Full insurance",
+    "4": "Competitive Pricing",
+    "5": "Personalized Approach"
+  },
+  "how-rent": {
+    "title": "How to Rent a Car?",
+    "age": "Renter's age from 21 years old",
+    "experience": "Driving experience of at least 2 years",
+    "deposit": "Deposit: 200 GEL",
+    "button": "Choose car",
+    "step": {
+      "0": {
+        "title": "Write",
+        "description": "Write to the manager at the specified contacts"
+      },
+      "1": {
+        "title": "Choose",
+        "description": "Select a car from a safe place"
+      },
+      "2": {
+        "title": "Sign",
+        "description": "Provide a passport and driver's license, sign an agreement"
+      },
+      "3": {
+        "title": "Enjoy",
+        "description": "Pick up the keys and head out to explore the local beauty"
+      }
+    }
   }
 }
