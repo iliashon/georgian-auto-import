@@ -13,7 +13,7 @@ export default function LightLink({
     return (
         <Link
             href={href}
-            className={`${className} bg-white font-medium px-3 py-1 rounded-lg border-2 border-white hover:bg-transparent hover:text-white duration-300`}
+            className={`${className} bg-white text-black font-medium px-3 py-1 rounded-lg border-2 border-white hover:bg-transparent hover:text-white duration-300`}
         >
             {children}
         </Link>

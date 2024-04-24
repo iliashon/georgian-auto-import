@@ -6,7 +6,7 @@ export default function Footer() {
     const t = useTranslations("footer");
 
     return (
-        <footer className="container mx-auto py-8 px-5 grid md:grid-cols-3 gap-10">
+        <footer className="container mx-auto py-10 px-5 grid md:grid-cols-3 gap-10">
             <div className="md:col-span-2">
                 <iframe
                     src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d186.3239299023008!2d41.63470668526743!3d41.65179058592418!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40678755e5e925a5%3A0xbc27f3026de1d8f6!2sGEORGIAN%20AUTO%20IMPORT!5e0!3m2!1sen!2sge!4v1713955943278!5m2!1sen!2sge"
@@ -29,6 +29,7 @@ export default function Footer() {
                     {contactsData.map((item) => (
                         <Link
                             href={item.href}
+                            key={item.text}
                             target="_blank"
                             className="flex items-center font-medium text-lg gap-2 opacity-50 hover:opacity-100 duration-300"
                         >
@@ -41,6 +42,7 @@ export default function Footer() {
                     {socialMedia.map((item) => (
                         <Link
                             href={item.href}
+                            key={item.href}
                             className="opacity-60 p-1 rounded-lg hover:opacity-100 duration-300 hover:bg-black/10"
                             target="_blank"
                         >
