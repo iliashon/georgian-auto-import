@@ -18,17 +18,17 @@ import { FaListCheck } from "react-icons/fa6";
 
 export const contactsData = [
     {
-        icon: <MdPhone className="h-7 w-7" />,
+        icon: <MdPhone size={20} />,
         href: "tel:+995596000770",
         text: "+995596000770",
     },
     {
-        icon: <MdEmail className="h-7 w-7" />,
+        icon: <MdEmail size={20} />,
         href: "mailto:vit_86@list.ru",
         text: "vit_86@list.ru",
     },
     {
-        icon: <MdMap className="h-7 w-7" />,
+        icon: <MdMap size={20} />,
         href: "https://maps.app.goo.gl/KHRfz2bMBB5XSSLf9",
         text: "Batumi st. Rustaveli 13",
     },
@@ -36,15 +36,15 @@ export const contactsData = [
 
 export const socialMedia = [
     {
-        icon: <LiaTelegram className="h-9 w-9" />,
+        icon: <LiaTelegram size={40} />,
         href: "https://t.me/kealem777",
     },
     {
-        icon: <FaInstagram className="h-9 w-9" />,
+        icon: <FaInstagram size={40} />,
         href: "https://www.instagram.com/import_autorent_ge/",
     },
     {
-        icon: <FaWhatsapp className="h-9 w-9" />,
+        icon: <FaWhatsapp size={40} />,
         href: "https://api.whatsapp.com/send/?phone=995596000770&text&type=phone_number&app_absent=0",
     },
 ];

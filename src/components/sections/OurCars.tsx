@@ -21,7 +21,7 @@ export default function OurCars() {
                         href={generateLocaleHref("/cars")}
                         className="text-lg"
                     >
-                        More cars
+                        How to rent
                     </LightLink>
                 </div>
                 {[1, 2, 3, 4].map((item, index) => {

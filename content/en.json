@@ -54,5 +54,10 @@
         "description": "Pick up the keys and head out to explore the local beauty"
       }
     }
+  },
+  "import": {
+    "title": "Car Imports: Your Choice",
+    "description": "Our car import service offers a wide selection of vehicles from various brands and classes. We import cars from different countries to meet the demands of our clients. Whether you're looking for an economical car for everyday use or a luxury vehicle for special occasions, we can help you find the right fit. With us, you can trust the quality and reliability of every car we import. Explore new possibilities with our car import service",
+    "button": "How to contact you"
   }
 }
